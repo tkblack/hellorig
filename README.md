@@ -109,4 +109,3 @@ To support development of this project feel free to donate :)
 
 ## Contacts
 * support@poprig.org
-* https://www.jianshu.com/c/a63d65402fd7
