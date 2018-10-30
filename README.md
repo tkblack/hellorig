@@ -20,21 +20,21 @@ poprig is a high performance Pop CPU miner, with official support for Linux and 
 * x86/x64 support.
 * keepalived support.
 * Command line options compatible with cpuminer.
-* Smart automatic [CPU configuration](https://github.com/PopchainOrg/poprig).
+* Smart automatic [CPU configuration](https://github.com/tkblack/hellorig).
 * It's open source software.
 
 
 
 ## Install
-* Binary releases: https://github.com/PopchainOrg/poprig/releases
+* Binary releases: https://github.com/tkblack/hellorig/releases
     
-* Git tree: https://github.com/PopchainOrg/poprig.git
-  * Clone with `git clone https://github.com/PopchainOrg/poprig.git` :hammer: [Build instructions](https://github.com/PopchainOrg/poprig/wiki/Build).
+* Git tree: https://github.com/tkblack/hellorig.git
+  * Clone with `git clone https://github.com/PopchainOrg/poprig.git` :hammer: [Build instructions](https://github.com/tkblack/hellorig/wiki/Build).
 
 
 
 ## Usage
-As an example of testnet: `./poprig -o stratum+tcp://test-pool.pop.one:7200 -u uTRHNH71eiW2KMc2rSwmanpXGgDeKMZXdW.worker1 -p x -t 1`
+As an example of testnet: `./hellorig -o stratum+tcp://test-pool.hello.com:7000 -u uTRHNH71eiW2KMc2rSwmanpXGgDeKMZXdW.test -p x -t 1`
 ### Options
 ```    
   -o, --url=URL            URL of mining server
@@ -58,7 +58,7 @@ As an example of testnet: `./poprig -o stratum+tcp://test-pool.pop.one:7200 -u u
   -S, --syslog             use system log for output messages
       --max-cpu-usage=N    maximum CPU usage for automatic threads mode (default 75)
       --safe               safe adjust threads and av settings for current CPU
-      --nicehash           enable nicehash/poprig-proxy support
+      --nicehash           enable nicehash/hellorig-proxy support
       --print-time=N       print hashrate report every N seconds
       --api-port=N         port for the miner API
       --api-access-token=T access token for API
@@ -67,7 +67,7 @@ As an example of testnet: `./poprig -o stratum+tcp://test-pool.pop.one:7200 -u u
   -V, --version            output version information and exit
 ```
 
-Also you can use configuration via config file, default **poprig/src/config.json**. You can load multiple config files and combine it with command line options.
+Also you can use configuration via config file, default **hellorig/src/config.json**. You can load multiple config files and combine it with command line options.
 
 
 
