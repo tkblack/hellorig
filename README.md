@@ -26,7 +26,7 @@ poprig is a high performance Pop CPU miner, with official support for Linux and 
 
 
 ## Install
-* Binary releases: https://github.com/tkblack/hellorig/releases
+* Binary releases: https://github.com/tkblack/hellorig-deps/releases/tag/v1.0.0
     
 * Git tree: https://github.com/tkblack/hellorig.git
   * Clone with `git clone https://github.com/PopchainOrg/poprig.git` :hammer: [Build instructions](https://github.com/tkblack/hellorig/wiki/Build).
